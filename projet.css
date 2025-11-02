@@ -1,0 +1,123 @@
+#test {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.rnc {
+  font-family: 'Lucida Sans', 'Lucida Grande', sans-serif;
+  color: rgb(248, 0, 0);
+}
+.rnc:hover {
+  color: rgb(0, 239, 76);
+}
+#test h3 {
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 1.2rem;
+    color: aqua;
+}
+#test h3:hover {
+    color: rgb(0, 0, 0);
+}
+#input {
+  padding: 6px 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+#input:focus {
+  border-color: aquamarine;
+  outline: none;
+}
+
+#addName, #chooseName {
+  margin-top: 1rem;
+  margin-right: 8px;
+  padding: 8px 16px;
+  background: #333;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+#addName:hover, #chooseName:hover {
+  background: #555;
+}
+
+#nameList {
+  list-style: none;
+  padding: 0;
+  margin-top: 1.5rem;
+  display: none; 
+  text-align: center;
+}
+
+#nameList li {
+  background: #f1f1f1;
+  margin: 5px auto;
+  padding: 6px 12px;
+  border-radius: 6px;
+  width: fit-content;
+  color: #222;
+  font-family: sans-serif;
+}
+
+
+#popUp {
+  display: none;
+  position: fixed;
+  inset: 0;
+  align-items: center;
+  justify-content: center;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 99;
+}
+
+#popUp.open {
+  display: flex;
+}
+
+
+.popup-card {
+  background-color: #ffffff;
+  color: #111;
+  padding: 2rem 3rem;
+  border-radius: 12px;
+  text-align: center;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.3);
+}
+
+
+#closePopup {
+  margin-top: 10px;
+  padding: 8px 16px;
+  background: #333;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+#closePopup:hover {
+  background: #555;
+}
+#chosenText {
+    font-family:'Gill Sans',
+    'Gill Sans MT',
+    Calibri, 'Trebuchet MS',
+    sans-serif ;
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+}
+
+#chosenName {
+    font-family:'Gill Sans',
+    'Gill Sans MT',
+    Calibri, 'Trebuchet MS',
+    sans-serif ;
+  font-size: 2.2rem;
+  font-weight: bold;
+  color: #ff0000;
+  margin-bottom: 1rem;
+}
+#chosenName:hover {
+  color: #00ff1a;
+}
