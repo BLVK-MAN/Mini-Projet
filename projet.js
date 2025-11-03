@@ -9,11 +9,10 @@ const nameList = document.getElementById("nameList");
 
 let names = [];
 
-// Add name
+
 addName.addEventListener("click", () => {
   const value = input.value.trim();
 
-  // ✅ Only allow letters (A–Z, a–z) and spaces
   const namePattern = /^[A-Za-zÀ-ÖØ-öø-ÿ\s]+$/;
 
   if (value !== "" && namePattern.test(value)) {
